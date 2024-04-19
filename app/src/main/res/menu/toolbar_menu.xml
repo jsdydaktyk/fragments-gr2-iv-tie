@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/arrow_forward"
+        android:icon="@drawable/baseline_arrow_forward_24"
+        android:title="arrow icon"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/contact_page"
+        android:icon="@drawable/baseline_contact_page_24"
+        android:title="contact icon"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/baseline_home_24"
+        android:title="home icon"
+        app:showAsAction="ifRoom"
+        />
+</menu>
