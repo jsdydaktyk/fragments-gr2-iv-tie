@@ -21,7 +21,7 @@ class ImagesGridAdapter(
                          convertView: View?,
                          parent: ViewGroup?): View {
 
-
+  
         val imageView = convertView as? ImageView ?: ImageView(context).apply {
             layoutParams = ViewGroup.LayoutParams(200,200)
             scaleType = ImageView.ScaleType.CENTER_CROP
